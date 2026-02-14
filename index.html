@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To My Forever Valentine, Ashley</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Dancing+Script:wght@600&family=Georgia&display=swap');
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Georgia', serif; 
+      background: #020c1b url('IMG_20250525_232120_612.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      min-height: 100vh;
+      overflow-x: hidden;
+      padding: 20px;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(0, 10, 30, 0.9), rgba(0, 40, 80, 0.8));
+      z-index: 0;
+    }
+
+    .hearts-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    .heart {
+      position: absolute;
+      color: #add8e6;
+      font-size: 20px;
+      animation: float 6s linear infinite;
+      opacity: 0;
+      text-shadow: 0 0 10px #fff;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(100vh) rotate(0deg); opacity: 1; }
+      100% { transform: translateY(-10vh) rotate(360deg); opacity: 0; }
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      background-color: rgba(0, 15, 40, 0.8);
+      padding: 60px 40px;
+      border-radius: 40px;
+      max-width: 850px;
+      margin: 40px auto;
+      text-align: center;
+      box-shadow: 0 0 50px rgba(0, 191, 255, 0.5);
+      border: 1px solid rgba(173, 216, 230, 0.3);
+      animation: fadeIn 3s ease forwards;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive; 
+      font-size: 5em;
+      color: #e0f7fa;
+      margin-bottom: 20px;
+      text-shadow: 3px 3px 15px rgba(0, 191, 255, 0.7);
+    }
+
+    h2 {
+      font-family: 'Dancing Script', cursive;
+      color: #87cefa;
+      margin: 35px 0;
+      font-size: 2.2em;
+      line-height: 1.6;
+    }
+
+    p {
+      color: #f0f8ff;
+      font-size: 1.3em;
+      line-height: 2.2;
+      margin: 30px 0;
+      font-weight: 300;
+      text-align: left;
+    }
+
+    .highlight-box {
+      background: rgba(135, 206, 250, 0.1);
+      border-left: 4px solid #87cefa;
+      padding: 20px;
+      margin: 30px 0;
+      font-style: italic;
+      text-align: center;
+    }
+
+    img {
+      width: 100%;
+      max-width: 550px;
+      border-radius: 25px;
+      margin: 40px auto;
+      display: block;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+      border: 2px solid rgba(173, 216, 230, 0.4);
+    }
+
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 25px;
+      margin: 40px 0;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.6);
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .footer {
+      margin-top: 70px;
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.5em;
+      color: #add8e6;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 3.2em; }
+      h2 { font-size: 1.7em; }
+      .content { padding: 30px 20px; }
+      p { font-size: 1.1em; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="overlay"></div>
+  <div class="hearts-container" id="hearts"></div>
+
+  <audio autoplay loop id="myAudio">
+    <source src="https://www.chosic.com/wp-content/uploads/2021/04/Rainy-Day-Piano-Version.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="content">
+    <img src="IMG_20250810_101748_786.jpg" alt="Our Love" />
+    
+    <h1>Happy Valentine's Day, Misis ko</h1>
+
+    <img src="IMG_20250810_101752_176.jpg" alt="You and Me" />
+
+    <h2>
+      "I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more."
+    </h2>
+
+    <p>
+      My dearest Ashley, as I look back at all the moments we've shared, I realize that Valentine's Day isn't just about the flowers or the gifts—it's about the incredible luck of having found my person. You are the one who makes the good days brighter and the hard days feel like they're just temporary hurdles we'll clear together.
+    </p>
+
+    <div class="highlight-box">
+      "In your smile, I see something more beautiful than the stars."
+    </div>
+
+    <img src="IMG_20251123_213916_832.jpg" alt="New Memory 1" />
+
+    <p>
+      There’s a specific kind of magic in the way you look at me. It’s the kind of warmth that can turn a bad day around in a heartbeat. You aren't just my partner; you’re the person I want to tell everything to, the one I want to share every sunset with, and the heart I want to protect forever. Thank you for being my constant in an ever-changing world. You make me feel safe, seen, and completely loved.
+    </p>
+
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/2Vv-BfVoq4g" title="Romantic Valentine Video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <img src="IMG_20251123_214023_993.jpg" alt="The Smile" />
+
+    <p>
+      I want to thank you for the million little things you do. Thank you for your patience when I’m rambling, for your kindness when I’m tired, and for the way you make me laugh until my chest hurts. Being with you has taught me that love isn’t about a grand movie-style moment; it’s about the quiet mornings, the inside jokes, and being <i>home</i> for one another. 
+    </p>
+
+    <img src="IMG_20251223_133307_692.jpg" alt="New Memory 2" />
+
+    <p>
+      You are my biggest inspiration. Seeing your strength, your intelligence, and your beautiful heart makes me want to be the best version of myself—not just for me, but for <i>us</i>. Every day with you feels like a gift I never expected but always dreamed of. I am so incredibly lucky to be the one walking through life by your side, holding your hand through every chapter.
+    </p>
+
+    <img src="IMG_20251231_014010_078.jpg" alt="Music" />
+
+    <p>
+      Whenever I hear this song, it feels like it was written just for us. It captures the parts of my heart that I sometimes struggle to put into words. It’s the sound of how I feel when I’m with you.<br>
+      <a href="https://music.youtube.com/watch?v=6pQcD3xKAtA&si=VYg77GNTMlkZoInq" target="_blank">Listen to our song ❤️</a>
+    </p>
+
+    <img src="IMG_20250525_232444_202.jpg" alt="Together" />
+
+    <p>
+      So here is to us, Ashley. To the memories we've made and the thousands of adventures we haven't even started yet. You are my today, my tomorrow, and my forever. Thank you for being you, and for choosing me.
+    </p>
+
+    <div class="footer">Forever and always yours, lovelove</div>
+
+  </div>
+
+  <script>
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.classList.add('heart');
+      const icons = ['💙', '💎', '✨', '❄️', '💍'];
+      heart.innerHTML = icons[Math.floor(Math.random() * icons.length)];
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.animationDuration = Math.random() * 3 + 4 + 's';
+      heart.style.fontSize = Math.random() * 15 + 10 + 'px';
+      document.getElementById('hearts').appendChild(heart);
+      setTimeout(() => { heart.remove(); }, 7000);
+    }
+
+    setInterval(createHeart, 400);
+
+    window.addEventListener('click', () => {
+        document.getElementById('myAudio').play();
+    }, { once: true });
+  </script>
+</body>
+</html>
